@@ -15,6 +15,10 @@
             right: 0;
             left: auto;
         }
+        body {
+            background-color: #fefff1;
+
+        }
     </style>
     
 </head>

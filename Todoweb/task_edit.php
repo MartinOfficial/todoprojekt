@@ -60,6 +60,11 @@ $conn->close();
     <title>Teendők - Feladat módosítása</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+        background-color: #fefff1;
+        }
+    </style>
 </head>
 <body>
 

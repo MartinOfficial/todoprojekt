@@ -2,7 +2,7 @@
 include('dbconnect.php');
 
 session_start();
-var_dump($_SESSION);
+//var_dump($_SESSION);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $conn->real_escape_string($_POST['email']);
@@ -39,6 +39,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Teendők - Bejelentkezés</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+        background-color: #fefff1;
+        }
+        .card {
+        background-color: #9eac88;
+        }
+    </style>
 </head>
 <body>
     <div class="d-flex justify-content-center align-items-center min-vh-100">

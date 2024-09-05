@@ -38,6 +38,9 @@ $result = $stmt->get_result();
         .prioritas-2 { background-color: #fff4dd; }
         .prioritas-1 { background-color: #ddffdd; }
         .lejart { color: red; font-weight: bold; }
+        body {
+        background-color: #fefff1;
+        }
     </style>
 </head>
 <body>
@@ -72,7 +75,6 @@ $result = $stmt->get_result();
         <?php endwhile; ?>
     </div>
 </div>
-
 <?php include('footer.php'); ?>
 
 <!-- Bootstrap JS and dependencies -->
