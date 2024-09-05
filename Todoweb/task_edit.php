@@ -91,6 +91,6 @@ $conn->close();
         </div>
         <div class="mb-3">
             <label for="hatarido" class="form-label">Határidő</label>
-            <input type="datetime-local" class="form-control" id="hatarido" name="hatarido" value="<?php echo date('Y-m-d', strtotime($feladat['deadline'])); ?>" required>
+            <input type="datetime-local" class="form-control" id="hatarido" name="hatarido" value="<?php echo date('Y-m-d\TH:i', strtotime($feladat['deadline'])); ?>" required>
         </div>
         <button type="submit" class="btn btn-primary">Feladat frissítése
